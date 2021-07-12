@@ -1,0 +1,513 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* All sections styles */
+
+.section {
+  padding: 100px 80px;
+}
+
+/* Repeating fonts */
+
+.section-title {
+  color: #333232;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: #333232;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Headers container styles */
+
+.headers-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Subheader styles */
+
+.subheader {
+  background-color: #0c64d1;
+  padding: 10px 80px;
+  text-align: center;
+}
+
+.subheader-cta {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+/* Subheader CTA on hover */
+
+.subheader-cta:hover {
+  border-bottom: 1px solid #fff;
+}
+
+/* Header styles */
+
+header {
+  align-items: center;
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+
+.brand-name {
+  color: #333232;
+  font-size: 24px;
+}
+
+/* Main menu styles */
+
+.main-menu-items-list {
+  display: flex;
+}
+
+.main-menu-item {
+  border-bottom: 1px solid #fff;
+  color: #333232;
+  cursor: pointer;
+  list-style-type: none;
+  margin: 10px;
+  text-transform: uppercase;
+  transition: 0.1s;
+}
+
+/* Main menu item on hover */
+
+.main-menu-item:hover {
+  border-bottom: 1px solid #333232;
+}
+
+/* Header social media icons styles */
+
+.header-social-media-icons {
+  display: flex;
+}
+
+.header-social-media-item {
+  color: #0c64d1;
+  cursor: pointer;
+  font-size: 18px;
+  list-style-type: none;
+  margin: 10px;
+}
+
+/* Hero section styles */
+
+.hero-section {
+  align-items: center;
+  background-image: url(/images/imagen-de-portada.jpg);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 124px;
+  padding: 180px 0px;
+}
+
+.hero-section-text-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero-section-title {
+  color: #fff;
+  font-size: 72px;
+  line-height: 1;
+  margin-bottom: 15px;
+  text-shadow: 4px 4px rgb(0 0 0 / 24%);
+}
+
+.hero-section-description {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero-section-cta {
+  background-color: #333232;
+  border: 2px solid #333232;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #fff;
+  padding: 12px 36px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+/* CTA on hover */
+
+.hero-section-cta:hover {
+  background-color: #4d4d4d;
+  border: 2px solid #4d4d4d;
+  color: #fff;
+}
+
+/* WhatsApp buton styles */
+
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 36px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/* Sunglasses section styles */
+
+.sunglasses-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sunglasses-text-container {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
+  width: 50%;
+}
+
+.sunglasses-section-cta {
+  background-color: transparent;
+  border: 2px solid #333232;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #333232;
+  padding: 12px 36px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.2s;
+  width: 210px;
+}
+
+/* Sunglasses section CTA on hover */
+
+.sunglasses-section-cta:hover {
+  background-color: #333232;
+  color: #fff;
+}
+
+.sunglasses-section-image-container {
+  width: 50%;
+  overflow: hidden;
+}
+
+.sunglasses-image {
+  max-width: 100%;
+}
+
+/* Blog section styles */
+
+.blog-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.blog-posts-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.blog-post {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  overflow: hidden;
+  width: calc(100% / 3 - (20px * 2));
+}
+
+.blog-post-image {
+  max-width: 360px;
+}
+
+.blog-post-title {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px 10px;
+}
+
+/* Blog post on hover */
+
+.blog-post:hover {
+  border-bottom: 1px solid #0c64d1;
+  cursor: pointer;
+}
+
+/* Brands section styles */
+
+.brands-section {
+  align-items: center;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.brands-logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: calc(100% / 6 - (10px * 5));
+  margin: 40px 10px 0 10px;
+}
+
+/* Contact section */
+
+.contact-section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  display: flex;
+  max-width: 1200px;
+  padding: 0px 20px;
+}
+
+.contact-text-container {
+  padding-right: 40px;
+  width: 50%;
+}
+
+.contact-options-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-option-item {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.contact-option-item i {
+  background-color: #0c64d1;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 16px;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+/* Contact option item on hover */
+
+.contact-option-item i:hover {
+  background-color: #053a7a;
+}
+
+.contact-option-item span {
+  color: #333232;
+}
+
+.email {
+  color: #333232;
+  text-decoration: none;
+}
+
+/* Email on hover */
+
+.email:hover {
+  border-bottom: 1px solid #333232;
+}
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  width: 50%;
+}
+
+.contact-form-element {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  margin-top: 5px;
+  padding: 8px;
+  width: 100%;
+}
+
+.submit-button {
+  background-color: #333232;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 12px 36px;
+  text-transform: uppercase;
+  transition: 0.2s;
+  width: 160px;
+}
+
+/* Form button on hover */
+
+.submit-button:hover {
+  background-color: #4d4d4d;
+}
+
+/* Footer styles */
+
+footer {
+  align-items: center;
+  background-color: #333232;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px;
+  text-align: center;
+}
+
+.social-media-icons {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.social-media-item {
+  cursor: pointer;
+  list-style-type: none;
+  margin: 10px;
+}
+
+.social-media-item i {
+  color: #fff;
+  font-size: 20px;
+}
+
+.credits {
+  color: #fff;
+}
+
+.designer-name {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 998px) {
+  .brands-logos {
+    flex-wrap: wrap;
+  }
+  .logo {
+    width: calc(100% / 3 - (10px * 2));
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .blog-post {
+    width: calc(100% / 2 - (20px * 2));
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .sunglasses-text-container {
+    width: 100%;
+  }
+  .sunglasses-section-image-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 956px) {
+  .main-menu-items-list {
+    display: none;
+  }
+  .header-social-media-icons {
+    display: none;
+  }
+  header {
+    justify-content: center;
+  }
+  .hero-section {
+    margin-top: 110px;
+  }
+}
+
+@media screen and (max-width: 824px) {
+  .contact-container {
+    flex-direction: column;
+  }
+  .contact-text-container {
+    width: 100%;
+  }
+  .contact-form-container {
+    width: 100%;
+    padding: 40px 0px;
+  }
+  .section {
+    padding: 60px 20px;
+  }
+  .subheader {
+    padding: 10px 20px;
+  }
+  header {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .sunglasses-text-container {
+    padding: 80px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .blog-post {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sunglasses-text-container {
+    padding: 80px 30px;
+  }
+}
+
+@media screen and (max-width: 452px) {
+  .brands-section {
+    text-align: center;
+  }
+  .logo {
+    width: calc(100% / 2 - (12px * 2));
+  }
+}
